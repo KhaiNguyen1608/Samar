@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Roboto,sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #636363;
+}
+
+.container {
+    max-width: 1199px;
+    margin: auto;
+}
+
+/*Header css*/
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn-gradient {
+    border-radius: 30px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 20px 35px;
+    background-image: linear-gradient(to right,#f55f8d 0,#f8ae56 51%,#f55f8d 100%);
+    border: 0px;
+    text-transform: uppercase;
+}
+
+header .container .header__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .container .header__content nav{
+    display: flex;
+}
+
+
+header .container .header__content nav ul{
+    display: flex;
+    margin-right: 30px;
+    align-items: center;
+}
+
+header .container .header__content nav li{
+    padding: 55px 15px;
+}
+
+header .container .header__content nav li a{
+    color: #070120;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+header .container .header__content nav div{
+    padding: 55px 15px;
+}
+
+/*Carousel css*/
+.saCarousel {
+    padding-top: 250px;
+    background-image: url(../img/pic2.png);
+    background-size: 100%;
+    
+}
+
+.saCarousel__content {
+    display: flex;
+    align-items: center;
+}
+
+.saCarousel__content .saCarousel__left{
+    width: 60%;
+}
+
+.saCarousel__content .saCarousel__left ul,h2,p{
+    margin-bottom: 20px;
+}
+
+.saCarousel__content .saCarousel__left .title p{
+    color: #f55f8d;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.saCarousel__content .saCarousel__left .title h2{
+    font-size: 70px;
+    line-height: 1.2;
+    color: black;
+}
+
+.saCarousel__content .saCarousel__left .saCarousel__article p{
+    font-size: 18px;
+    line-height: 1.2;
+}
+
+.saCarousel__content .saCarousel__left .saCarousel__article ul li{
+    font-size: 21px;
+}
+
+.saCarousel__content .saCarousel__left .saCarousel__article ul li i{
+    background-image: linear-gradient(to right,#f55f8d 0,#f8ae56 51%,#f55f8d 100%);
+    border-radius: 30px;
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    width: 35px;
+    height: 35px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    line-height: 1.2;
+}
+
+.saCarousel__content .saCarousel__right{
+    width: 40%;
+}
+
+.saCarousel__content .saCarousel__right img{
+    width: 100%;
+}
+
+
